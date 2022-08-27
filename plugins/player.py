@@ -99,7 +99,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 @Client.on_message(
-    commandpro(["/play", "/yt", "/ytp", "play", "yt", "ytp", "@", "#"])
+    commandpro(["/play", "/yt", "play", "yt"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -164,7 +164,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/146be6929217e4efbe12e.png"
+        thumb_name = "https://telegra.ph/file/b93274f340d94dac0c1ef.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -221,7 +221,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/146be6929217e4efbe12e.png"
+            thumb_name = "https://telegra.ph/file/b93274f340d94dac0c1ef.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -335,7 +335,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/a65ba5aeb5f20fe58e7c7.png", 
+                             photo="https://telegra.ph/file/b93274f340d94dac0c1ef.jpg", 
                              caption="**💥 vιנαү sαнυ 🔈 Mʋsɩƈ🤞Nøω 🥀\n▶️ Ƥɑʋsɘɗ 🌷 ...**"
     )
 
@@ -346,7 +346,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/a521c746980e1c95f3648.png", 
+                             photo="https://telegra.ph/file/b93274f340d94dac0c1ef.jpg", 
                              caption="**💥 vιנαү sαнυ 🔈 Mʋsɩƈ🤞Nøω 🥀\n⏸ Ƥɭɑyɩɳʛ 🌷 ...**"
     )
 
@@ -380,12 +380,12 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/05104aa1865874e60a3d4.png", 
+                             photo="https://telegra.ph/file/b93274f340d94dac0c1ef.jpg", 
                              caption=f'**💥 vιנαү sαнυ 🔈 Mʋsɩƈ🤞Nøω 🥀\n⏩ Sƙɩƥƥɘɗ 🌷 ...**'
    ) 
 
 
-@Client.on_message(commandpro(["/end", "end", "/stop", "stop", "x"]) & other_filters)
+@Client.on_message(commandpro(["/end", "end"]) & other_filters)
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
@@ -396,12 +396,12 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/4e9c458e58af5627df148.png", 
+                             photo="https://telegra.ph/file/b93274f340d94dac0c1ef.jpg", 
                              caption="**💥 𝐯𝐢𝐣𝐚𝐲 𝐬𝐚𝐡𝐮 𝐭𝐡𝐚𝐧𝐤 𝐩𝐥𝐚𝐲 𝐭𝐨  🔈 Mʋsɩƈ🤞Nøω 🥀\n❌ Sʈøƥƥɘɗ 🌷 ...**"
     )
 
 
-@Client.on_message(commandpro(["reload", "refresh"]))
+@Client.on_message(commandpro(["reload", "/reload"]))
 @errors
 @authorized_users_only
 async def admincache(client, message: Message):
@@ -414,6 +414,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/11eb93f01a325ee9b372e.png",
+                              photo="https://telegra.ph/file/b93274f340d94dac0c1ef.jpg",
                               caption="**💥 vιנαү sαнυ 𝐑𝐞𝐥𝐨𝐚𝐝 𝐡𝐨 𝐠𝐲𝐚😁 🔈 Mʋsɩƈ🤞Nøω 🥀\n🔥 Ʀɘɭøɑɗɘɗ 🌷 ...**"
     )
