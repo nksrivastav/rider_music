@@ -33,15 +33,14 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/11eb93f01a325ee9b372e.png",
+        photo=f"https://telegra.ph/file/b93274f340d94dac0c1ef.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs 𝐦𝐚𝐤𝐞 𝐛𝐲 𝐯𝐢𝐣𝐚𝐲 𝐬𝐚𝐡𝐮 ...
+💥 𝙔𝙚 𝙩𝙜 𝙠𝙖 𝙗𝙚𝙨𝙩 𝙢𝙪𝙨𝙞𝙘 𝙗𝙤𝙩 𝙗𝙖𝙞 𝙟𝙤 𝙡𝙖𝙜 𝙛𝙧𝙚𝙚 𝙢𝙪𝙨𝙞𝙘 𝙗𝙖𝙟𝙖𝙮𝙚𝙜𝙖
+𝙖𝙥𝙠𝙚 𝙫𝙘 𝙢𝙚𝙞𝙣.𝙊𝙬𝙣𝙚𝙧:- 𝗧𝗢𝗫𝗜𝗖 𝗗𝗔𝗡𝗚𝗘𝗥𝗢𝗨𝗦𝗙𝗜𝗚𝗛𝗧𝗘𝗥  ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [vιנαү sαнυ](https://t.me/vijaysahu_1)
-┣★ ᴜᴘᴅᴀᴛᴇs : [αηкιт sεяvεя](https://t.me/ANKITSERVER)
-┣★ sᴜᴘᴘᴏʀᴛ : [αηкιт sεяvεя ](https://t.me/ANKITSERVER)
-┣★ sᴏᴜʀᴄᴇ › : [vιנαү sαнυ](https://telegra.ph/file/146be6929217e4efbe12e.jpg)
+┣★ ᴄʀᴇᴀᴛᴏʀ : [vιנαү sαнυ](https://t.me/OFFICIALDANGEROUSFIGHTER)
+┣★ ᴜᴘᴅᴀᴛᴇs : [αηкιт sεяvεя](https://t.me/DANGEROUSFIGHTERCHANNEL)
+┣★ sᴜᴘᴘᴏʀᴛ : [αηкιт sεяvεя ](https://t.me/DANGEROUSFIGHTERGROUP)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
@@ -51,7 +50,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/ANKITSERVER")
+                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/OFFICIALDANGEROUSFIGHTER")
                 ]
                 
            ]
@@ -68,7 +67,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/ANKITSERVER")
+                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/OFFICIALDANGEROUSFIGHTER")
                 ]
             ]
         ),
