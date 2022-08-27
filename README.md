@@ -9,12 +9,12 @@
 ### Deploy To Railway
 
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/R2cf/musicbaba&envs=API_ID,API_HASH,BOT_TOKEN,STRING_SESSION)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/wtftoxicop/new-music-&envs=API_ID,API_HASH,BOT_TOKEN,STRING_SESSION)
 
 
 ### Deploy To Heroku
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/R2cf/musicbaba)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/wtftoxicop/new-music-)
 
 
 
@@ -23,8 +23,3 @@
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@AdityaHalder/StringSession)
 
 
-
-#### Copy Pasters You Can Copy This But Must Give Credits ...
-
-### Owner Of This Repository
-[![𝐯𝐢𝐣𝐚𝐲 𝐬𝐚𝐡𝐮](https://telegra.ph/file/5fd9caa140e80d8361cc7.png)](https://t.me/vijaysahu_1)
