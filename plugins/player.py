@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: vijay sahu (@vijaysahu_1)",
+        f"Powered By: Toxic (@OFFICIALDANGEROUSFIGHTER)",
         (255, 255, 255),
         font=font,
     )
@@ -109,7 +109,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("**🔎 Sɘɑɤƈɦɩɳʛ ...**")
+    lel = await message.reply("**𝘿𝙝𝙪𝙣𝙙𝙧𝙖 𝙝𝙪...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -117,7 +117,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Vijay_Player"
+        user.first_name = "Toxic_player"
     usar = user
     wew = usar.id
     try:
@@ -129,24 +129,24 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**💥 Ʌʈ🤞Fɩrsʈ 🥀 Ɱɑƙɘ ♥️ Ɱɘ ⭐ Ʌɗɱɩŋ 😎 vιנαү sαнυ ...**")
+                        "**𝙋𝙚𝙝𝙡𝙚 𝙖𝙙𝙢𝙞𝙣 𝙩𝙤𝙝 𝙗𝙖𝙣𝙖𝙤 𝙮𝙧𝙡**")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 😎 I🤞ʌɱ 🥀 Ʀɘɑɗy ♥️ Ƭø ⭐ Ƥɭɑy 😎 vιנαү sαнυ...**")
+                        message.chat.id, "**𝙈𝙖𝙞𝙣 𝙧𝙚𝙖𝙙𝙮 𝙝𝙪 𝙨𝙤𝙣𝙜 𝙥𝙡𝙖𝙮 𝙠𝙖𝙧𝙣𝙚 𝙠𝙚 𝙡𝙞𝙮𝙚**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🎸 Ƥɭɘɑsɘ ❤️ Ɱɑŋʋɑɭɭy 🥀 Ʌɗɗ 💫 Ʌssɩsʈɑŋʈ 😔 Øɤ 🎸 Ƈøŋʈɑƈʈ ❤️ ʈø : @vijaysahu_1 🥀** ")
+                        f"**𝙈𝙪𝙨𝙞𝙘 𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙠𝙤 𝙢𝙖𝙣𝙪𝙖𝙡𝙡𝙮 𝙖𝙙𝙙 𝙠𝙖𝙧𝙤**")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🎸 Ƥɭɘɑsɘ ❤️ Ɱɑŋʋɑɭɭy 🥀 Ʌɗɗ 💫 Ʌssɩsʈɑŋʈ 😔 Øɤ 🎸 Ƈøŋʈɑƈʈ ❤️ ʈø : @vijaysahu_1 🥀 ...*")
+            f"**𝙈𝙪𝙨𝙞𝙘 𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙠𝙤 𝙢𝙖𝙣𝙪𝙖𝙡𝙡𝙮 𝙖𝙙𝙙 𝙠𝙖𝙧𝙤**")
         return
     
     audio = (
@@ -159,7 +159,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**💥 vιנαү sαнυ😁 Ƥɭɑy 🔊 Ɱʋsɩƈ 💿 Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
+                f"**TOXIC MUSIC 🤩Ƥɭɑy 💫 Ɱʋsɩƈ 🙈 Lɘss ⚡️\n🤔 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳute ...**"
             )
 
         file_name = get_file_name(audio)
@@ -173,7 +173,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ💗vιנαү sαнυ 💞",
+                            text="𝘿𝘼𝙉𝙂𝙀𝙍𝙊𝙐𝙎𝙁𝙄𝙂𝙃𝙏𝙀𝙍",
                             url=f"https://t.me/OFFICIALDANGEROUSFIGHTER")
 
                 ]
@@ -212,7 +212,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ💗vιנαү sαнυ 💞",
+                            text="𝘿𝘼𝙉𝙂𝙀𝙍𝙊𝙐𝙎𝙁𝙄𝙂𝙃𝙏𝙀𝙍",
                             url=f"https://t.me/OFFICIALDANGEROUSFIGHTER")
 
                 ]
@@ -228,7 +228,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ💗vιנαү sαнυ 💞",
+                            text="𝘿𝘼𝙉𝙂𝙀𝙍𝙊𝙐𝙎𝙁𝙄𝙂𝙃𝙏𝙀𝙍",
                             url=f"https://t.me/OFFICIALDANGEROUSFIGHTER")
 
                 ]
@@ -237,7 +237,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 vιנαү sαнυ😁 Ƥɭɑy 🔊 Ɱʋsɩƈ 💿 Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
+                f"**TOXIC MUSIC 🤩Ƥɭɑy 💫 Ɱʋsɩƈ 🙈 Lɘss ⚡️\n🤔 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳute ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -246,9 +246,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**🤖 Ɠɩⱱɘ 🙃 Ɱʋsɩƈ 💿 Ɲɑɱɘ 😍\n💞 Ƭø 🔊 Ƥɭɑy 🌷vιנαү sαнυ...**"
+                "**𝙎𝙤𝙣𝙜 𝙠𝙖 𝙣𝙖𝙢𝙚 𝙡𝙞𝙠𝙝𝙤 𝙮𝙧𝙡**"
             )
-        await lel.edit("**🔄 Ƥɤøƈɘssɩɳʛ vιנαү sαнυ ...**")
+        await lel.edit("**🔄 𝙏𝙤𝙭𝙞𝙘 𝙢𝙪𝙨𝙞𝙘 𝙥𝙧𝙤𝙘𝙚𝙨𝙨 𝙝𝙤𝙧𝙖...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -273,7 +273,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🔊 Ɱʋsɩƈ 😕 Ɲøʈ 📵 Føʋɳɗ❗️\n💞 Ƭɤy ♨️ Ʌɳøʈɦɘɤ 🌷vιנαү sαнυ...**"
+                "**𝙎𝙤𝙣𝙜 𝙣𝙞 𝙢𝙞𝙡𝙧𝙖 𝙙𝙪𝙨𝙧𝙖 𝙗𝙖𝙟𝙖𝙤 𝙮𝙧𝙡**"
             )
             print(str(e))
             return
@@ -282,7 +282,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ💗vιנαү sαнυ 💞",
+                            text="𝘿𝘼𝙉𝙂𝙀𝙍𝙊𝙐𝙎𝙁𝙄𝙂𝙃𝙏𝙀𝙍",
                             url=f"https://t.me/OFFICIALDANGEROUSFIGHTER")
 
                 ]
@@ -291,7 +291,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 vιנαү sαнυ😁 Ƥɭɑy 🔊 Ɱʋsɩƈ 💿 Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
+                f"**TOXIC MUSIC 🤩Ƥɭɑy 💫 Ɱʋsɩƈ 🙈 Lɘss ⚡️\n🤔 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳute ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -305,7 +305,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 vιנαү sαнυ🤞Ʌɗɗɘɗ 💿 Søɳʛ❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{}` 🌷 ...**".format(position),
+            caption="**𝙏𝙤𝙭𝙞𝙘 𝙢𝙪𝙨𝙞𝙘🤞Ʌɗɗɘɗ 💿 Søɳʛ❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{}` 🌷 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -322,7 +322,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 vιנαү sαнυ🤞Mʋsɩƈ 🎸 Nøω 💞\n🔊 Ƥɭɑyɩɳʛ 😍 ØƤ 🥀 ...**".format(),
+            caption="**𝙏𝙤𝙭𝙞𝙘 𝙢𝙪𝙨𝙞𝙘 𝙛𝙞𝙧𝙨𝙚 𝙗𝙖𝙟𝙧𝙖**".format(),
            )
 
     os.remove("final.png")
@@ -336,7 +336,7 @@ async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/b93274f340d94dac0c1ef.jpg", 
-                             caption="**💥 vιנαү sαнυ 🔈 Mʋsɩƈ🤞Nøω 🥀\n▶️ Ƥɑʋsɘɗ 🌷 ...**"
+                             caption="**𝙏𝙤𝙭𝙞𝙘 𝙢𝙪𝙨𝙞𝙘 𝙥𝙖𝙪𝙨𝙚 𝙝𝙤𝙜𝙮𝙖**"
     )
 
 
@@ -347,7 +347,7 @@ async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/b93274f340d94dac0c1ef.jpg", 
-                             caption="**💥 vιנαү sαнυ 🔈 Mʋsɩƈ🤞Nøω 🥀\n⏸ Ƥɭɑyɩɳʛ 🌷 ...**"
+                             caption="**𝙏𝙤𝙭𝙞𝙘 𝙢𝙪𝙨𝙞𝙘 𝙧𝙚𝙨𝙪𝙢𝙚 𝙝𝙤𝙜𝙮𝙖**"
     )
 
 
@@ -362,7 +362,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**💥 vιנαү sαнυ 💞 Ɲøʈɦɩɳʛ 🔇\n🚫 Ƥɭɑyɩɳʛ 🌷 ...**")
+        await message.reply_text("**𝙆𝙪𝙭 𝙣𝙖 𝙗𝙖𝙟𝙧𝙖 𝙮𝙧𝙡**")
     else:
         queues.task_done(chat_id)
         
@@ -381,7 +381,7 @@ async def skip(_, message: Message):
 
     await message.reply_photo(
                              photo="https://telegra.ph/file/b93274f340d94dac0c1ef.jpg", 
-                             caption=f'**💥 vιנαү sαнυ 🔈 Mʋsɩƈ🤞Nøω 🥀\n⏩ Sƙɩƥƥɘɗ 🌷 ...**'
+                             caption=f'**𝙏𝙤𝙭𝙞𝙘 𝙢𝙪𝙨𝙞𝙘 𝙨𝙠𝙞𝙥 𝙝𝙤𝙜𝙮𝙖**'
    ) 
 
 
@@ -397,7 +397,7 @@ async def stop(_, message: Message):
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/b93274f340d94dac0c1ef.jpg", 
-                             caption="**💥 𝐯𝐢𝐣𝐚𝐲 𝐬𝐚𝐡𝐮 𝐭𝐡𝐚𝐧𝐤 𝐩𝐥𝐚𝐲 𝐭𝐨  🔈 Mʋsɩƈ🤞Nøω 🥀\n❌ Sʈøƥƥɘɗ 🌷 ...**"
+                             caption="**𝙏𝙤𝙭𝙞𝙘 𝙢𝙪𝙨𝙞𝙘 𝙚𝙣𝙙 𝙝𝙤𝙜𝙮𝙖**"
     )
 
 
@@ -415,5 +415,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://telegra.ph/file/b93274f340d94dac0c1ef.jpg",
-                              caption="**💥 vιנαү sαнυ 𝐑𝐞𝐥𝐨𝐚𝐝 𝐡𝐨 𝐠𝐲𝐚😁 🔈 Mʋsɩƈ🤞Nøω 🥀\n🔥 Ʀɘɭøɑɗɘɗ 🌷 ...**"
+                              caption="**𝙏𝙤𝙭𝙞𝙘 𝙢𝙪𝙨𝙞𝙘 𝙧𝙚𝙡𝙤𝙖𝙙 𝙝𝙤𝙜𝙮𝙖 𝙮𝙧𝙡**"
     )
