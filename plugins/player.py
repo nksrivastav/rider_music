@@ -99,7 +99,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 @Client.on_message(
-    commandpro(["/play", "/yt", "play", "yt"])
+    commandpro(["/play","play"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -174,7 +174,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ💗vιנαү sαнυ 💞",
-                            url=f"https://t.me/ANKITSERVER")
+                            url=f"https://t.me/OFFICIALDANGEROUSFIGHTER")
 
                 ]
             ]
@@ -213,7 +213,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ💗vιנαү sαнυ 💞",
-                            url=f"https://t.me/ANKITSERVER")
+                            url=f"https://t.me/OFFICIALDANGEROUSFIGHTER")
 
                 ]
             ]
@@ -229,7 +229,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ💗vιנαү sαнυ 💞",
-                            url=f"https://t.me/ANKITSERVER")
+                            url=f"https://t.me/OFFICIALDANGEROUSFIGHTER")
 
                 ]
             ]
@@ -283,7 +283,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ💗vιנαү sαнυ 💞",
-                            url=f"https://t.me/ANKITSERVER")
+                            url=f"https://t.me/OFFICIALDANGEROUSFIGHTER")
 
                 ]
             ]
